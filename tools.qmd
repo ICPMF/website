@@ -69,4 +69,12 @@ USDA IPMP – Dynamic Prediction is also developed on top of USDA IPMP, but it i
 
 qraLm is an R package for quantitative risk assessment of *Listeria monocytogenes* in foods, which was developed by the World Health Organization in the framework of the JEMRA Expert Meetings *Listeria monocytogenes* in foods, part 1 and 2. In addition to the modular functions for each processing stage of RTE seafood, frozen vegetables and RTE cantaloupe, the qraLm package contains a built-in Shiny app allowing users to interactively simulate risk assessments for different food types and contamination scenarios.
 
+## [DMRI Predict](www.dmripredict.dk)
 
+DMRI Predict is a collection of **predictive models** that can be used to
+estimate the **growth**, **inactivation**, or **survival** of microorganisms in meat
+products. The predictive models in DMRI Predict enable the user to
+evaluate the effects of different variables, such as temperature, pH,
+water activity, preservatives, or processing methods, on the shelf-life
+and safety of food. Two of the models are recognized and recommended by
+USDA.
