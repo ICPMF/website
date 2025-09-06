@@ -235,7 +235,7 @@
     "href": "tools.html#database-pathogens-in-foods",
     "title": "🛠️Predictive Modelling Tools",
     "section": "🔬 Database Pathogens In Foods",
-    "text": "🔬 Database Pathogens In Foods\nPathogens-in-Foods is a database of systematically formatted occurrence data of the most important biological hazards in foods randomly surveyed from European farms, processing facilities, retail establishments and restauration.\nUnder a harmonised arrangement, Pathogens-in-Foods brings together prevalence and enumeration data of pathogenic bacteria, parasites and viruses in foods, extracted from published peer-reviewed articles and reports."
+    "text": "🔬 Database Pathogens In Foods\nPathogens-in-Foods - PIF is a database of systematically formatted occurrence data of the most important biological hazards in foods randomly surveyed from European farms, processing facilities, retail establishments and restauration. Prevalence and enumeration data from periodic systematic reviews are inserted into PIF, and are available in four catalogues: Bacteria, Virus, Protozoans and Nematodes. Shiny dashboards provide swift data description and meta-analysis."
   },
   {
     "objectID": "tools.html#fda-irisk",
@@ -277,7 +277,7 @@
     "href": "tools.html#symprevius",
     "title": "🛠️Predictive Modelling Tools",
     "section": "Sym’Previus",
-    "text": "Sym’Previus\nA decision support software tool for predicting bacterial growth, growth/no growth boundaries and thermal inactivation. It also contains microbiological data-fitting tools. The software makes it possible to take into account variability inherent to food products, processes and micro-organisms."
+    "text": "Sym’Previus\nSym’Previus is decision support software for predictive microbiology that simulates bacterial growth, growth/no growth limits and thermal inactivation in various food environments. It offers ready-to-use applications and model fitting tools. Sym’Previus incorporates distinctive advanced features such as toolboxes for mould growth and bacterial growth under modified atmosphere packaging (MAP). It is developed and maintained by a multi-partner Scientific Interest Group (SIG), which guarantees its independence, long-term continuity and adaptability. All updates are examined and validated scientifically by a committee of experts, guaranteeing methodological rigour. This unique governance model makes Sym’Previus both collaborative and robust, combining scientific reliability with flexibility for industrial and research applications."
   },
   {
     "objectID": "tools.html#who-r-package-qralm",
@@ -327,5 +327,26 @@
     "title": "🎥 Webinars",
     "section": "Ejemplos de estudios de vida útil en relación a Listeria monocytogenes",
     "text": "Ejemplos de estudios de vida útil en relación a Listeria monocytogenes"
+  },
+  {
+    "objectID": "tools.html#growth-predictor",
+    "href": "tools.html#growth-predictor",
+    "title": "🛠️Predictive Modelling Tools",
+    "section": "Growth Predictor",
+    "text": "Growth Predictor\nA predictive modelling and quantitative microbial risk assessment (QMRA) application in Rshiny. Primary model fitting is carried out with the Baranyi model. Secondary fitting and growth simulations are based on gamma models with or without interactions. A variety of gamma terms can be used under static or dynamic conditions. The variability in T, pH, aw, the levels of up to 6 inhibitors and the strain-to-strain variability in growth limits can be described by normal distributions. The QMRA is comprised of four consecutive modules from primary production till consumption, coupled with built-in, or user defined dose-response models. In addition to prevalence, the modules consider partition, mixing, cross-contamination and uncertainty in prevalence (beta distribution). Variability can be introduced through a variety of probability distributions (e.g., Normal, Pert, Triangular, Discrete, Uniform, etc.), for initial contamination, re-contamination, storage time and temperature, product characteristics, serving size, maximum population density, and cooking practices. Fixed or variable log reductions during cooking, may be introduced as user-defined values or probability distributions, respectively, or estimated by Bigelow thermal inactivation model. Suitable for assessing compliance with micro-criteria and relative risk ranking."
+  },
+  {
+    "objectID": "tools.html#mrv---microbial-responses-viewer",
+    "href": "tools.html#mrv---microbial-responses-viewer",
+    "title": "🛠️Predictive Modelling Tools",
+    "section": "MRV - Microbial Responses Viewer",
+    "text": "MRV - Microbial Responses Viewer\nMicrobial Responses Viewer is a growth/no growth interface based on ComBase database. It provides a visualisation of growth/no growth plot with the specific growth rates as a function of temperature, pH, and aw. The MRV enables users to retrieve microbial growth/no growth information intuitively. Using the MRV, food processors can easily identify appropriate food design and processing conditions. The detail of the tool can be seen at https://doi.org/10.1016/j.ijfoodmicro.2008.12.019 and https://doi.org/10.1016/j.foodcont.2012.05.044."
+  },
+  {
+    "objectID": "tools.html#dmri-predict",
+    "href": "tools.html#dmri-predict",
+    "title": "🛠️Predictive Modelling Tools",
+    "section": "DMRI Predict",
+    "text": "DMRI Predict\nDMRI Predict is a collection of predictive models that can be used to estimate the growth, inactivation, or survival of microorganisms in meat products. The predictive models in DMRI Predict enable the user to evaluate the effects of different variables, such as temperature, pH, water activity, preservatives, or processing methods, on the shelf-life and safety of food. Two of the models are recognized and recommended by USDA."
   }
 ]
