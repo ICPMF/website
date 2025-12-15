@@ -1,23 +1,73 @@
 ---
-title: "Young ICPMF"
+title: "yICPMF Board"
 format: html
+listing:
+  - id: ycurrent-members
+    contents: data/young-members.yml
+    type: grid
+    sort: order
+    include:
+      member_type: "current"
+    grid-columns: 2
+    grid-item-align: center
+    image-height: 250px 
+    field-display-names:
+      role: ""
+      affiliation: ""
+    fields: [image, title, role, affiliation]
+
+  - id: yformer-members
+    contents: data/young-members.yml
+    type: grid
+    sort: order
+    include:
+      member_type: "former"
+    grid-columns: 2
+    grid-item-align: center
+    image-height: 250px 
+    field-display-names:
+      role: ""
+      affiliation: ""
+    fields: [image, title, role, affiliation]
 ---
 
-## 📜 Objectives of yICPMF
+The Young International Committee on Predictive Modelling in Food (yICPMF) is a network for young researchers whose aim is to foster collaboration and knowledge exchange within the research domains of ICPMF:
 
-TBA
+- 📌 Risk assessment methods;
+- ⏳ Shelf Life determination and optimisation;
+- 🧬 Foodomics and bioinformatics;
+- 📊 Predictive Microbiology;
+- 🔬 Individual cell and whole-cell modelling;
+- 📍 Microbial dynamics and interactions;
+- 💻 Software and database tools;
+- 📚 Meta-analysis protocols and applications;
 
-## 🧑 Current yICPMF members
+The yICPMF group's aims are:
 
-TBA
+1. to foster collaboration and knowledge exchange among young scientists and facilitate contact with senior scientists;
+2. to create a young community for proposing activities, events, courses, etc.
+
 
 ## 📜 yICPMF Bylaws
-
 
 [📄 View or Download yICPMF Bylaws (PDF)](files/yICPMF-bylaws.pdf){target=_blank}
 
 
-## 🧑 🔬 Become a Member
+## 🧑 Become a Member
 
-If you are interested in becoming a **member** of the **Young ICPMF**, contact: yicpmf@gmail.com
+If you are interested in becoming a **member** of the **Young ICPMF**, contact: [yicpmf@gmail.com](mailto:yicpmf@gmail.com)
 
+
+
+### 🧑 Current Members
+
+::: {#ycurrent-members}
+
+:::
+
+### Former Members
+
+
+::: {#yformer-members}
+
+:::
