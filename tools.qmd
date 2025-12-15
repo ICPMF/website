@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d205bf1ad4ef011c8afaa9837e0ce76f4168d8a4
 ---
 title: 🛠️Predictive Modelling Tools
 format: html
@@ -79,6 +82,7 @@ evaluate the effects of different variables, such as temperature, pH,
 water activity, preservatives, or processing methods, on the shelf-life
 and safety of food. Two of the models are recognized and recommended by
 USDA.
+<<<<<<< HEAD
 =======
 ---
 title: 🛠️Predictive Modelling Tools
@@ -153,3 +157,5 @@ qraLm is an R package for quantitative risk assessment of *Listeria monocytogene
 
 
 >>>>>>> a3672238461bc051b5ce30c1617552144bde072a
+=======
+>>>>>>> d205bf1ad4ef011c8afaa9837e0ce76f4168d8a4
