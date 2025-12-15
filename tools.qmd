@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d205bf1ad4ef011c8afaa9837e0ce76f4168d8a4
 ---
 title: 🛠️Predictive Modelling Tools
 format: html
@@ -82,13 +78,6 @@ evaluate the effects of different variables, such as temperature, pH,
 water activity, preservatives, or processing methods, on the shelf-life
 and safety of food. Two of the models are recognized and recommended by
 USDA.
-<<<<<<< HEAD
-=======
----
-title: 🛠️Predictive Modelling Tools
-format: html
----
-
 A collection of relevant predictive modelling tools and software (programming codes, spreadsheets, websites, etc.) is presented in this section, providing a concise description, access link, and files. If you do not find your software application or any other indispensable tools, please let us know, and send the information. The list will be updated as soon as possible.
 
 ## [ComBase](https://combase.errc.ars.usda.gov/)
@@ -155,7 +144,3 @@ USDA IPMP – Dynamic Prediction is also developed on top of USDA IPMP, but it i
 
 qraLm is an R package for quantitative risk assessment of *Listeria monocytogenes* in foods, which was developed by the World Health Organization in the framework of the JEMRA Expert Meetings *Listeria monocytogenes* in foods, part 1 and 2. In addition to the modular functions for each processing stage of RTE seafood, frozen vegetables and RTE cantaloupe, the qraLm package contains a built-in Shiny app allowing users to interactively simulate risk assessments for different food types and contamination scenarios.
 
-
->>>>>>> a3672238461bc051b5ce30c1617552144bde072a
-=======
->>>>>>> d205bf1ad4ef011c8afaa9837e0ce76f4168d8a4
