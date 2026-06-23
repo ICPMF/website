@@ -3,4 +3,7 @@
 .RData
 .Ruserdata
 
+# System files
+.DS_Store
+
 /.quarto/
