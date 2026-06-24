@@ -1,5 +1,5 @@
 ---
-title: 💻 Training Material
+title: <i class="bi bi-pc-display"></i> Training Material
 format: html
 ---
 

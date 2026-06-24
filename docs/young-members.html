@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3a8cd7b47d57ea1f9978965b8d0d950b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-12c6fc8acd58b0cfb71a2acb0d4c8576.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -140,7 +141,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -167,7 +168,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.png" alt="" class="navbar-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -263,14 +265,14 @@ window.Quarto = {
 
 <p>The Young International Committee on Predictive Modelling in Food (yICPMF) is a network for young researchers whose aim is to foster collaboration and knowledge exchange within the research domains of ICPMF:</p>
 <ul>
-<li>📌 Risk assessment methods;</li>
-<li>⏳ Shelf Life determination and optimisation;</li>
-<li>🧬 Foodomics and bioinformatics;</li>
-<li>📊 Predictive Microbiology;</li>
-<li>🔬 Individual cell and whole-cell modelling;</li>
-<li>📍 Microbial dynamics and interactions;</li>
-<li>💻 Software and database tools;</li>
-<li>📚 Meta-analysis protocols and applications;</li>
+<li><i class="bi bi-pin-angle-fill" style="font-size: 24px; color: #00a0dc"></i> Risk assessment methods;</li>
+<li><i class="bi bi-hourglass-split" style="font-size: 24px; color: #00a0dc"></i> Shelf Life determination and optimisation;</li>
+<li><i class="bi bi-fingerprint" style="font-size: 24px; color: #00a0dc"></i> Foodomics and bioinformatics;</li>
+<li><i class="bi bi-bar-chart-line-fill" style="font-size: 24px; color: #00a0dc"></i> Predictive Microbiology;</li>
+<li><i class="bi bi-search" style="font-size: 24px; color: #00a0dc"></i> Individual cell and whole-cell modelling;</li>
+<li><i class="bi bi-pin-map-fill" style="font-size: 24px; color: #00a0dc"></i> Microbial dynamics and interactions;</li>
+<li><i class="bi bi-pc-display" style="font-size: 24px; color: #00a0dc"></i> Software and database tools;</li>
+<li><i class="bi bi-book-fill" style="font-size: 24px; color: #00a0dc"></i> Meta-analysis protocols and applications;</li>
 </ul>
 <p>The yICPMF group’s aims are:</p>
 <ol type="1">
@@ -278,14 +280,14 @@ window.Quarto = {
 <li>to create a young community for proposing activities, events, courses, etc.</li>
 </ol>
 <section id="yicpmf-bylaws" class="level2">
-<h2 class="anchored" data-anchor-id="yicpmf-bylaws">📜 yICPMF Bylaws</h2>
-<p><a href="files/yICPMF-bylaws.pdf" target="_blank">📄 View or Download yICPMF Bylaws (PDF)</a></p>
+<h2 class="anchored" data-anchor-id="yicpmf-bylaws"><i class="bi bi-file-earmark-check-fill"></i> yICPMF Bylaws</h2>
+<p><a href="files/yICPMF-bylaws.pdf" target="_blank"><i class="bi bi-file-earmark-arrow-down-fill"></i> View or Download yICPMF Bylaws (PDF)</a></p>
 </section>
 <section id="become-a-member" class="level2">
-<h2 class="anchored" data-anchor-id="become-a-member">🧑 Become a Member</h2>
+<h2 class="anchored" data-anchor-id="become-a-member"><i class="bi bi-person-fill-add"></i> Become a Member</h2>
 <p>If you are interested in becoming a <strong>member</strong> of the <strong>Young ICPMF</strong>, contact: <a href="mailto:yicpmf@gmail.com">yicpmf@gmail.com</a></p>
 <section id="current-members" class="level3">
-<h3 class="anchored" data-anchor-id="current-members">🧑 Current Members</h3>
+<h3 class="anchored" data-anchor-id="current-members"><i class="bi bi-person-circle"></i> Current Members</h3>
 <div id="listing-ycurrent-members" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
 <div class="g-col-1" data-index="0">
@@ -970,13 +972,14 @@ affiliation
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
