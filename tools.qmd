@@ -1,5 +1,5 @@
 ---
-title: 🛠️Predictive Modelling Tools
+title: <i class="bi bi-tools"></i> Predictive Modelling Tools
 format: html
 ---
 
@@ -17,7 +17,7 @@ An online relational database of records that quantitatively describe the growth
 
 The web application “Meta-analysed cardinal parameter model of *Listeria monocytogenes* in broth” is a shiny dashboard of a meta-analysed cardinal parameter model of *Listeria monocytogenes* growth in broth, built upon the results from over 2000 growth experiments. The app. displays cardinal parameter graphs and estimates growth rate values at a given temperature, pH and water activity. Documentation of the meta-analysis model can be found at: [https://doi.org/10.1016/j.foodres.2020.109476](https://doi.org/10.1016/j.foodres.2020.109476).
 
-## 🔬 [Database Pathogens In Foods](https://pif.esa.ipb.pt/)
+## <i class="bi bi-database-fill"></i> [Database Pathogens In Foods](https://pif.esa.ipb.pt/)
 
 [Pathogens-in-Foods - PIF](https://pif.esa.ipb.pt/) is a database of systematically formatted occurrence data of the most important biological hazards in foods randomly surveyed from European farms, processing facilities, retail establishments and restauration. Prevalence and enumeration data from periodic systematic reviews are inserted into PIF, and are available in four catalogues: Bacteria, Virus, Protozoans and Nematodes. Shiny dashboards provide swift data description and meta-analysis.
 
@@ -92,7 +92,7 @@ An online relational database of records that quantitatively describe the growth
 
 The web application “Meta-analysed cardinal parameter model of *Listeria monocytogenes* in broth” is a shiny dashboard of a meta-analysed cardinal parameter model of *Listeria monocytogenes* growth in broth, built upon the results from over 2000 growth experiments. The app. displays cardinal parameter graphs and estimates growth rate values at a given temperature, pH and water activity. Documentation of the meta-analysis model can be found at: [https://doi.org/10.1016/j.foodres.2020.109476](https://doi.org/10.1016/j.foodres.2020.109476).
 
-## 🔬 [Database Pathogens In Foods](https://pif.esa.ipb.pt/)
+## <i class="bi bi-database-fill"></i> [Database Pathogens In Foods](https://pif.esa.ipb.pt/)
 
 [Pathogens-in-Foods - PIF](https://pif.esa.ipb.pt/) is a database of systematically formatted occurrence data of the most important biological hazards in foods randomly surveyed from European farms, processing facilities, retail establishments and restauration. Prevalence and enumeration data from periodic systematic reviews are inserted into PIF, and are available in four catalogues: Bacteria, Virus, Protozoans and Nematodes. Shiny dashboards provide swift data description and meta-analysis.
 

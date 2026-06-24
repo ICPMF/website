@@ -1,5 +1,5 @@
 ---
-title: 🎥 Webinars
+title: <i class="bi bi-camera-reels-fill"></i> Webinars
 format: html
 ---
 

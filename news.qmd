@@ -1,5 +1,5 @@
 ---
-title: "🌐 News"
+title: <i class="bi bi-globe2"></i> News
 format: html
 ---
 

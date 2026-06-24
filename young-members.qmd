@@ -33,14 +33,14 @@ listing:
 
 The Young International Committee on Predictive Modelling in Food (yICPMF) is a network for young researchers whose aim is to foster collaboration and knowledge exchange within the research domains of ICPMF:
 
-- 📌 Risk assessment methods;
-- ⏳ Shelf Life determination and optimisation;
-- 🧬 Foodomics and bioinformatics;
-- 📊 Predictive Microbiology;
-- 🔬 Individual cell and whole-cell modelling;
-- 📍 Microbial dynamics and interactions;
-- 💻 Software and database tools;
-- 📚 Meta-analysis protocols and applications;
+- <i class="bi bi-pin-angle-fill" style="font-size: 24px; color: #00a0dc"></i> Risk assessment methods;
+- <i class="bi bi-hourglass-split" style="font-size: 24px; color: #00a0dc"></i> Shelf Life determination and optimisation;
+- <i class="bi bi-fingerprint" style="font-size: 24px; color: #00a0dc"></i> Foodomics and bioinformatics;
+- <i class="bi bi-bar-chart-line-fill" style="font-size: 24px; color: #00a0dc"></i> Predictive Microbiology;
+- <i class="bi bi-search" style="font-size: 24px; color: #00a0dc"></i> Individual cell and whole-cell modelling;
+- <i class="bi bi-pin-map-fill" style="font-size: 24px; color: #00a0dc"></i> Microbial dynamics and interactions;
+- <i class="bi bi-pc-display" style="font-size: 24px; color: #00a0dc"></i> Software and database tools;
+- <i class="bi bi-book-fill" style="font-size: 24px; color: #00a0dc"></i> Meta-analysis protocols and applications;
 
 The yICPMF group's aims are:
 
@@ -48,18 +48,18 @@ The yICPMF group's aims are:
 2. to create a young community for proposing activities, events, courses, etc.
 
 
-## 📜 yICPMF Bylaws
+## <i class="bi bi-file-earmark-check-fill"></i> yICPMF Bylaws
 
-[📄 View or Download yICPMF Bylaws (PDF)](files/yICPMF-bylaws.pdf){target=_blank}
+[<i class="bi bi-file-earmark-arrow-down-fill"></i> View or Download yICPMF Bylaws (PDF)](files/yICPMF-bylaws.pdf){target=_blank}
 
 
-## 🧑 Become a Member
+## <i class="bi bi-person-fill-add"></i> Become a Member
 
 If you are interested in becoming a **member** of the **Young ICPMF**, contact: [yicpmf@gmail.com](mailto:yicpmf@gmail.com)
 
 
 
-### 🧑 Current Members
+### <i class="bi bi-person-circle"></i> Current Members
 
 ::: {#ycurrent-members}
 
