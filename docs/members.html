@@ -100,6 +100,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-representatives .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-role','listing-affiliation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-id","listing-title","listing-role","listing-affiliation","listing-image","listing-member_type","listing-order"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-representatives'] = new List('listing-representatives', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-former-members .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -374,40 +402,6 @@ Instituto Politécnico de Bragança, Portugal
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="images/board/members/Mariem_Ellouse.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mariem Ellouze
-</h5>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-role
-</td>
-<td class="role">
-Representative to ICFMH
-</td>
-</tr>
-
-<tr>
-<td>
-affiliation
-</td>
-<td class="affiliation">
-Ferrero, Italy
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
 <img loading="lazy" src="images/board/members/Heidy_Den_Besten.jpg" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
@@ -438,7 +432,7 @@ Wageningen University, The Netherlands
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5">
+<div class="g-col-1" data-index="4">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -472,41 +466,7 @@ University of Cordoba, Spain
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img loading="lazy" src="images/board/members/Anderson_Santana.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Anderson Sant’Ana
-</h5>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-role
-</td>
-<td class="role">
-Board Member
-</td>
-</tr>
-
-<tr>
-<td>
-affiliation
-</td>
-<td class="affiliation">
-University of Campinas, Brazil
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7">
+<div class="g-col-1" data-index="5">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -540,7 +500,7 @@ Statens Serum Institut, Denmark
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8">
+<div class="g-col-1" data-index="6">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -574,7 +534,7 @@ Independent Consultant, France
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9">
+<div class="g-col-1" data-index="7">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -601,6 +561,118 @@ affiliation
 </td>
 <td class="affiliation">
 University of Shanghai for Science and Technology, China
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="images/board/members/Louis_Surname.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Louis [Surname]
+</h5>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+role
+</td>
+<td class="role">
+Board Member
+</td>
+</tr>
+
+<tr>
+<td>
+affiliation
+</td>
+<td class="affiliation">
+[Louis affiliation will be added here]
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="images/board/members/Panos_Surname.jpg" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Panos [Surname]
+</h5>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+role
+</td>
+<td class="role">
+Board Member
+</td>
+</tr>
+
+<tr>
+<td>
+affiliation
+</td>
+<td class="affiliation">
+[Panos affiliation will be added here]
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<!-- REVIEW : Added representative section -->
+</section>
+<section id="icpmf-representative" class="level2">
+<h2 class="anchored" data-anchor-id="icpmf-representative">ICPMF Representative</h2>
+<p>Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy!</p>
+<div id="listing-representatives" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="images/board/representatives/Mariem_Ellouse.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mariem Ellouze
+</h5>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+role
+</td>
+<td class="role">
+Representative to ICFMH
+</td>
+</tr>
+
+<tr>
+<td>
+affiliation
+</td>
+<td class="affiliation">
+Ferrero, Italy
 </td>
 </tr>
 
@@ -882,6 +954,40 @@ affiliation
 </td>
 <td class="affiliation">
 Ecole Nationale Vétérinaire d’Alfort, France
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8">
+<a href="" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img loading="lazy" src="images/board/former/Anderson_Santana.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Anderson Sant’Ana
+</h5>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+role
+</td>
+<td class="role">
+Former Member
+</td>
+</tr>
+
+<tr>
+<td>
+affiliation
+</td>
+<td class="affiliation">
+University of Campinas, Brazil
 </td>
 </tr>
 
