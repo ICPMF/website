@@ -16,12 +16,12 @@ listing:
       affiliation: ""
     fields: [image, title, role, affiliation]
 
-  - id: representatives
+  - id: icfmh-representatives
     contents: data/members.yml
     type: grid
     sort: order
     include:
-      member_type: "representative"
+      member_type: "icfmh-representative"
     grid-columns: 2
     grid-item-align: center
     image-height: 250px
@@ -53,12 +53,14 @@ The ICPMF board is formed by ten members, from different organisations all over 
 
 :::
 
-<!-- REVIEW : Added representative section -->
-## ICPMF Representative
+<!-- NOTE   : Added representative section -->
+<!-- REVIEW : Changed into Representative to ICFMH -->
+## Representative to ICFMH
 
-Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy! Ahoy!
+In 2014, the Executive board agreed to incorporate the International Committee on Predictive Modelling in Food (ICPMF) as a ICFMH subcommittee. The ICPMF has as mission to catalyse the development of predictive modelling in foods, primarily through advancing the success and sustainability of the biennial ICPMF-conferences. The ICPMF representative to the ICFMH Exective Board from November 2023 is Dr. Mariem Ellouze.
 
-::: {#representatives}
+<!-- REVIEW : Changed from representatives into icfmh-representatives -->
+::: {#icfmh-representatives}
 
 :::
 

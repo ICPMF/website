@@ -62,31 +62,32 @@
   member_type: current
   order: 8
 
-# FIXME : Add Louis surname and affiliation
-- id: louis-surname
-  title: Louis [Surname]
+# NOTE : Add Louis Coroller and affiliation
+- id: louis-coroller
+  title: Louis Coroller
   role: Board Member
-  affiliation: "[Louis affiliation will be added here]"
-  image: images/board/members/Louis_Surname.jpg
+  affiliation: "National Institute Polytechnic of Brittany, France"
+  image: images/board/members/Louis_Coroller.jpg
   member_type: current
   order: 9
 
-# FIXME : Add Panos surname and affiliation
-- id: panos-surname
-  title: Panos [Surname]
+# NOTE : Add Panos Skandamis and affiliation
+- id: panagiotis-skandamis
+  title: Panagiotis N. Skandamis
   role: Board Member
-  affiliation: "[Panos affiliation will be added here]"
-  image: images/board/members/Panos_Surname.jpg
+  affiliation: "Agricultural University of Athens, Greece"
+  image: images/board/members/Panagiotis_Skandamis.jpg
   member_type: current
   order: 10
 
 # REVIEW : Added representative role here
+# REVIEW : Changed member_type from 'representative' to 'icfmh-representative'
 - id: mariem-ellouze
   title: Mariem Ellouze
   role: Representative to ICFMH
   affiliation: Ferrero, Italy
   image: images/board/representatives/Mariem_Ellouse.png
-  member_type: representative
+  member_type: icfmh-representative
   order: 1
 
 - id: josef-baranyi
