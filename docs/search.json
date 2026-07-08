@@ -46,14 +46,14 @@
     "href": "events.html",
     "title": " ICPMF Conferences",
     "section": "",
-    "text": "The next \\(13^{th}\\) International Conference of Predictive Modelling in Food (https://afea.eventsair.com/13thicpmf/) will be held in Athens from the \\(1^{st}\\) to the \\(3^{rd}\\) September 2025. It will comprise themes such as: the use of Data Science, AI, Machine Learning, and their tools for decision making in the Food sector, Digital twins in the Food Sector , Food safety by design: tools and decision support systems, and many others."
+    "text": "International Committee on Predictive Modelling in Food (ICPMF) is pleased to act as a co-host for the International Conference on Predictive Modelling in Food (ICPMF14) jointly with the Conference on Food Microbiological Risk Assessment (MicroRisk 2027), to be held from June 23–25, 2027, in Shanghai, China (http://microrisk.cn/). The conference theme is Better Model, Better Life.   Professor Dr. Dong Qingli from the University of Shanghai for Science and Technology (USST) was officially awarded the hosting rights for ICPMF14. The committee also acknowledges that the Conference on Food Microbiological Risk Assessment (MicroRisk) is a well-established series initiated by Professor Dong in China since 2014. We are delighted that ICPMF14 will be jointly organized with MicroRisk 2027, fostering stronger collaboration between the international and Chinese academic communities."
   },
   {
     "objectID": "events.html#upcoming",
     "href": "events.html#upcoming",
     "title": " ICPMF Conferences",
     "section": "",
-    "text": "The next \\(13^{th}\\) International Conference of Predictive Modelling in Food (https://afea.eventsair.com/13thicpmf/) will be held in Athens from the \\(1^{st}\\) to the \\(3^{rd}\\) September 2025. It will comprise themes such as: the use of Data Science, AI, Machine Learning, and their tools for decision making in the Food sector, Digital twins in the Food Sector , Food safety by design: tools and decision support systems, and many others."
+    "text": "International Committee on Predictive Modelling in Food (ICPMF) is pleased to act as a co-host for the International Conference on Predictive Modelling in Food (ICPMF14) jointly with the Conference on Food Microbiological Risk Assessment (MicroRisk 2027), to be held from June 23–25, 2027, in Shanghai, China (http://microrisk.cn/). The conference theme is Better Model, Better Life.   Professor Dr. Dong Qingli from the University of Shanghai for Science and Technology (USST) was officially awarded the hosting rights for ICPMF14. The committee also acknowledges that the Conference on Food Microbiological Risk Assessment (MicroRisk) is a well-established series initiated by Professor Dong in China since 2014. We are delighted that ICPMF14 will be jointly organized with MicroRisk 2027, fostering stronger collaboration between the international and Chinese academic communities."
   },
   {
     "objectID": "webinars.html",
@@ -308,130 +308,25 @@
     "text": "DMRI Predict\nDMRI Predict is a collection of predictive models that can be used to estimate the growth, inactivation, or survival of microorganisms in meat products. The predictive models in DMRI Predict enable the user to evaluate the effects of different variables, such as temperature, pH, water activity, preservatives, or processing methods, on the shelf-life and safety of food. Two of the models are recognized and recommended by USDA. A collection of relevant predictive modelling tools and software (programming codes, spreadsheets, websites, etc.) is presented in this section, providing a concise description, access link, and files. If you do not find your software application or any other indispensable tools, please let us know, and send the information. The list will be updated as soon as possible."
   },
   {
-    "objectID": "tools.html#combase-1",
-    "href": "tools.html#combase-1",
-    "title": " Predictive Modelling Tools",
-    "section": "ComBase",
-    "text": "ComBase\nAn online relational database of records that quantitatively describe the growth and inactivation of pathogenic and spoilage microorganisms in food environments. The software also includes a suite of broth- and food-based models, as well as data-fitting tools. The initiative is a collaboration between the Tasmanian Institute of Agriculture and the USDA-Agricultural Research Service."
-  },
-  {
-    "objectID": "tools.html#cardinalfit-1",
-    "href": "tools.html#cardinalfit-1",
-    "title": " Predictive Modelling Tools",
-    "section": "CardinalFit",
-    "text": "CardinalFit\n“CardinalFit: Fitting Cardinal Models” is a Shiny dashboard designed to fit cardinal parameter models, which are secondary models that describe the growth rate of microorganisms as a function of extrinsic and/or intrinsic factors. These are models that estimate the optimum growth rate, and the minimum, optimum and maximum values of extrinsic and intrinsic factors (e.g. temperature, pH, water activity), which characterise the growth of a given microbial strain."
-  },
-  {
-    "objectID": "tools.html#cardinal_model_broth-1",
-    "href": "tools.html#cardinal_model_broth-1",
-    "title": " Predictive Modelling Tools",
-    "section": "Cardinal_Model_Broth",
-    "text": "Cardinal_Model_Broth\nThe web application “Meta-analysed cardinal parameter model of Listeria monocytogenes in broth” is a shiny dashboard of a meta-analysed cardinal parameter model of Listeria monocytogenes growth in broth, built upon the results from over 2000 growth experiments. The app. displays cardinal parameter graphs and estimates growth rate values at a given temperature, pH and water activity. Documentation of the meta-analysis model can be found at: https://doi.org/10.1016/j.foodres.2020.109476."
-  },
-  {
-    "objectID": "tools.html#database-pathogens-in-foods-1",
-    "href": "tools.html#database-pathogens-in-foods-1",
-    "title": " Predictive Modelling Tools",
-    "section": " Database Pathogens In Foods",
-    "text": "Database Pathogens In Foods\nPathogens-in-Foods - PIF is a database of systematically formatted occurrence data of the most important biological hazards in foods randomly surveyed from European farms, processing facilities, retail establishments and restauration. Prevalence and enumeration data from periodic systematic reviews are inserted into PIF, and are available in four catalogues: Bacteria, Virus, Protozoans and Nematodes. Shiny dashboards provide swift data description and meta-analysis."
-  },
-  {
-    "objectID": "tools.html#fda-irisk-1",
-    "href": "tools.html#fda-irisk-1",
-    "title": " Predictive Modelling Tools",
-    "section": "FDA-iRISK",
-    "text": "FDA-iRISK\nAn interactive, web-based risk assessment tool developed by the U.S. Food and Drug Administration to inform prioritization and intervention decisions about food safety. Through built-in functions and automated features, FDA-iRISK enables users to rank risks from multiple microbial and chemical hazards more efficiently, as well as predicting the effectiveness of potential solutions."
-  },
-  {
-    "objectID": "tools.html#food-spoilage-and-safety-predictor-fssp-1",
-    "href": "tools.html#food-spoilage-and-safety-predictor-fssp-1",
-    "title": " Predictive Modelling Tools",
-    "section": "Food Spoilage and Safety Predictor (FSSP)",
-    "text": "Food Spoilage and Safety Predictor (FSSP)\nA standalone software for the prediction of the shelf-life and growth of bacteria in different fresh and lightly preserved meat, dairy and seafood products. It can be used also when the effect of product temperature profiles recorded over time by data loggers."
-  },
-  {
-    "objectID": "tools.html#growth-predictor-1",
-    "href": "tools.html#growth-predictor-1",
-    "title": " Predictive Modelling Tools",
-    "section": "Growth Predictor",
-    "text": "Growth Predictor\nA predictive modelling and quantitative microbial risk assessment (QMRA) application in Rshiny. Primary model fitting is carried out with the Baranyi model. Secondary fitting and growth simulations are based on gamma models with or without interactions. A variety of gamma terms can be used under static or dynamic conditions. The variability in T, pH, aw, the levels of up to 6 inhibitors and the strain-to-strain variability in growth limits can be described by normal distributions. The QMRA is comprised of four consecutive modules from primary production till consumption, coupled with built-in, or user defined dose-response models. In addition to prevalence, the modules consider partition, mixing, cross-contamination and uncertainty in prevalence (beta distribution). Variability can be introduced through a variety of probability distributions (e.g., Normal, Pert, Triangular, Discrete, Uniform, etc.), for initial contamination, re-contamination, storage time and temperature, product characteristics, serving size, maximum population density, and cooking practices. Fixed or variable log reductions during cooking, may be introduced as user-defined values or probability distributions, respectively, or estimated by Bigelow thermal inactivation model. Suitable for assessing compliance with micro-criteria and relative risk ranking."
-  },
-  {
-    "objectID": "tools.html#microhibro-1",
-    "href": "tools.html#microhibro-1",
-    "title": " Predictive Modelling Tools",
-    "section": "MicroHibro",
-    "text": "MicroHibro\nAn online toolbox to assess quantitatively the risk of pathogenic and spoilage microorganisms in a variety of food commodities, by including predictive models, dose-response models, stochastic models. The software includes a tool for assessing and designing sampling plan and derive risk metrics such as Food Safety Objectives and Performance Objectives."
-  },
-  {
-    "objectID": "tools.html#microrisk-lab-1",
-    "href": "tools.html#microrisk-lab-1",
-    "title": " Predictive Modelling Tools",
-    "section": "Microrisk Lab",
-    "text": "Microrisk Lab\nMicrorisk Lab is an R-based online freeware for predictive microbiology, with its core function being the parameter estimation and model simulation of microbial behaviours such as growth and inactivation. The platform integrates up to 36 peer-reviewed mathematical models, covering primary models under static and non-isothermal conditions, secondary models describing the influence of environmental factors on specific growth rates, and competitive growth models for two microflora populations, supporting both deterministic and stochastic simulations."
-  },
-  {
-    "objectID": "tools.html#mrv---microbial-responses-viewer-1",
-    "href": "tools.html#mrv---microbial-responses-viewer-1",
-    "title": " Predictive Modelling Tools",
-    "section": "MRV - Microbial Responses Viewer",
-    "text": "MRV - Microbial Responses Viewer\nMicrobial Responses Viewer is a growth/no growth interface based on ComBase database. It provides a visualisation of growth/no growth plot with the specific growth rates as a function of temperature, pH, and aw. The MRV enables users to retrieve microbial growth/no growth information intuitively. Using the MRV, food processors can easily identify appropriate food design and processing conditions. The detail of the tool can be seen at https://doi.org/10.1016/j.ijfoodmicro.2008.12.019 and https://doi.org/10.1016/j.foodcont.2012.05.044."
-  },
-  {
-    "objectID": "tools.html#predmicro-1",
-    "href": "tools.html#predmicro-1",
-    "title": " Predictive Modelling Tools",
-    "section": "PredMicro",
-    "text": "PredMicro\n“PredMicro: Fitting Predictive Microbial Models” is a Shiny application tool designed to support the fitting of the most widely used predictive microbiology primary growth models. These are models that describe microbial concentration as a function of time at constant environmental conditions."
-  },
-  {
-    "objectID": "tools.html#symprevius-1",
-    "href": "tools.html#symprevius-1",
-    "title": " Predictive Modelling Tools",
-    "section": "Sym’Previus",
-    "text": "Sym’Previus\nSym’Previus is decision support software for predictive microbiology that simulates bacterial growth, growth/no growth limits and thermal inactivation in various food environments. It offers ready-to-use applications and model fitting tools. Sym’Previus incorporates distinctive advanced features such as toolboxes for mould growth and bacterial growth under modified atmosphere packaging (MAP). It is developed and maintained by a multi-partner Scientific Interest Group (SIG), which guarantees its independence, long-term continuity and adaptability. All updates are examined and validated scientifically by a committee of experts, guaranteeing methodological rigour. This unique governance model makes Sym’Previus both collaborative and robust, combining scientific reliability with flexibility for industrial and research applications."
-  },
-  {
-    "objectID": "tools.html#usda-integrated-pathogen-modeling-program-usda-ipmp-1",
-    "href": "tools.html#usda-integrated-pathogen-modeling-program-usda-ipmp-1",
-    "title": " Predictive Modelling Tools",
-    "section": "USDA Integrated Pathogen Modeling Program (USDA-IPMP)",
-    "text": "USDA Integrated Pathogen Modeling Program (USDA-IPMP)\nUSDA-IPMP is a standalone data analysis software tool that is compiled the Windows operating system. It can be saved to any directory and is ready to work once it is self-extracted. No installation is needed. It is developed for kinetic parameters estimation (inverse analysis) of the most common primary and secondary models in predictive microbiology. It is designed with user-friendly graphical interfaces to direct the users to analyse individual curves of bacterial growth or survival (primary models) and effect of temperature on growth or survival rates (secondary models). Following the tutorial, users can easily analyse the curves without programming, allowing anyone, with basic knowledge of predictive microbiology, to determine the parameters of an observed curve."
-  },
-  {
-    "objectID": "tools.html#usda-ipmp-global-fit-1",
-    "href": "tools.html#usda-ipmp-global-fit-1",
-    "title": " Predictive Modelling Tools",
-    "section": "USDA IPMP-Global Fit",
-    "text": "USDA IPMP-Global Fit\nUSDA IPMP-Global Fit is developed on top of USDA IPMP, but it is designed for one-step kinetic analysis of isothermal growth or survival curves to minimise residual errors during parameters estimation (inverse analysis). USDA IPMP-Global Fit is designed to analyse both primary and secondary models of multiple growth or survival curves at the same time (one-step) to determine the kinetic parameters. It is also a standalone software tool with user-friendly graphical interfaces. Once downloaded to a local drive (hard drive or USB), it can be self-extracted and executable. No installation is needed. It is suitable for more advanced users of predictive microbiology."
-  },
-  {
-    "objectID": "tools.html#usda-ipmp-dynamic-prediction-1",
-    "href": "tools.html#usda-ipmp-dynamic-prediction-1",
-    "title": " Predictive Modelling Tools",
-    "section": "USDA IPMP – Dynamic Prediction",
-    "text": "USDA IPMP – Dynamic Prediction\nUSDA IPMP – Dynamic Prediction is also developed on top of USDA IPMP, but it is developed as a predictive tool (for direct analysis). It is also a self-extractable file and can work from any local drive. No installation is needed. It is specifically developed to predict the growth of foodborne pathogens under dynamically changing temperature conditions, but it is also capable for predicting bacterial growth and survival under constant temperature conditions. It is also built with user-friendly graphical interfaces to allow users to make predictions based on a time-temperature history. All models in USDA IPMP – Dynamic Prediction have been validated in the laboratory."
-  },
-  {
-    "objectID": "tools.html#who-r-package-qralm-1",
-    "href": "tools.html#who-r-package-qralm-1",
-    "title": " Predictive Modelling Tools",
-    "section": "WHO R package: qraLm",
-    "text": "WHO R package: qraLm\nqraLm is an R package for quantitative risk assessment of Listeria monocytogenes in foods, which was developed by the World Health Organization in the framework of the JEMRA Expert Meetings Listeria monocytogenes in foods, part 1 and 2. In addition to the modular functions for each processing stage of RTE seafood, frozen vegetables and RTE cantaloupe, the qraLm package contains a built-in Shiny app allowing users to interactively simulate risk assessments for different food types and contamination scenarios."
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": " News",
     "section": "",
-    "text": "ICPMF seeks exceptional candidates with a strong track record in the field of Predictive Microbiology and Food Modelling, to serve as ICPMF board member, developing activities related to the ICPMF mission and participating in the ICPMF board meetings in accordance with the by-laws:\n- To foster the development and use of mathematical modelling in food science.\n- To Improve Food Safety and Quality and Food Process Optimization through transferring the Know-How on Predictive Model to the different levels along the Food Chains.\n- To create a strong predictive modeller community able to advance in Predictive Mathematical Tools for Food by increasing the presence in media, science, academia, etc.\n- To develop educational programmes to train scientists, academia and food professionals in Predictive Modelling Tools in Foods.\nThe ICPMF member will be elected by vote for a 10-year term, for which a majority vote of all ICPMF current committee members will be required. Candidates should submit an expression of interest and a maximum of two letters of support by e-mail to the ICPMF Chair (koseki@agr.hokudai.ac.jp) and secretary (george.nychas@gmail.com), no later than 31 February 2026. The expression of interest should include the relevant achievements of the candidate in the field of Predictive Modelling in Food, motivation, the expected contribution to ICPMF activities, and other significant aspects related to the ICPMF mission and vision."
+    "text": "The 14th International Conference on Predictive Modelling in Food (ICPMF 14) will be held jointly with the Conference on Food Microbiological Risk Assessment (MicroRisk 2027), from 23rd to 25th June 2027, in Shanghai, China.  For more information, please see the Events page. The official website is also available at http://microrisk.cn/."
   },
   {
     "objectID": "news.html#ongoing",
     "href": "news.html#ongoing",
     "title": " News",
     "section": "",
-    "text": "ICPMF seeks exceptional candidates with a strong track record in the field of Predictive Microbiology and Food Modelling, to serve as ICPMF board member, developing activities related to the ICPMF mission and participating in the ICPMF board meetings in accordance with the by-laws:\n- To foster the development and use of mathematical modelling in food science.\n- To Improve Food Safety and Quality and Food Process Optimization through transferring the Know-How on Predictive Model to the different levels along the Food Chains.\n- To create a strong predictive modeller community able to advance in Predictive Mathematical Tools for Food by increasing the presence in media, science, academia, etc.\n- To develop educational programmes to train scientists, academia and food professionals in Predictive Modelling Tools in Foods.\nThe ICPMF member will be elected by vote for a 10-year term, for which a majority vote of all ICPMF current committee members will be required. Candidates should submit an expression of interest and a maximum of two letters of support by e-mail to the ICPMF Chair (koseki@agr.hokudai.ac.jp) and secretary (george.nychas@gmail.com), no later than 31 February 2026. The expression of interest should include the relevant achievements of the candidate in the field of Predictive Modelling in Food, motivation, the expected contribution to ICPMF activities, and other significant aspects related to the ICPMF mission and vision."
+    "text": "The 14th International Conference on Predictive Modelling in Food (ICPMF 14) will be held jointly with the Conference on Food Microbiological Risk Assessment (MicroRisk 2027), from 23rd to 25th June 2027, in Shanghai, China.  For more information, please see the Events page. The official website is also available at http://microrisk.cn/."
+  },
+  {
+    "objectID": "news.html#past",
+    "href": "news.html#past",
+    "title": " News",
+    "section": "Past",
+    "text": "Past\n\nCall for applications for two positions of ICPMF board member\nICPMF seeks exceptional candidates with a strong track record in the field of Predictive Microbiology and Food Modelling, to serve as ICPMF board member, developing activities related to the ICPMF mission and participating in the ICPMF board meetings in accordance with the by-laws:\n- To foster the development and use of mathematical modelling in food science.\n- To Improve Food Safety and Quality and Food Process Optimization through transferring the Know-How on Predictive Model to the different levels along the Food Chains.\n- To create a strong predictive modeller community able to advance in Predictive Mathematical Tools for Food by increasing the presence in media, science, academia, etc.\n- To develop educational programmes to train scientists, academia and food professionals in Predictive Modelling Tools in Foods.\nThe ICPMF member will be elected by vote for a 10-year term, for which a majority vote of all ICPMF current committee members will be required. Candidates should submit an expression of interest and a maximum of two letters of support by e-mail to the ICPMF Chair (koseki@agr.hokudai.ac.jp) and secretary (george.nychas@gmail.com), no later than 31 February 2026. The expression of interest should include the relevant achievements of the candidate in the field of Predictive Modelling in Food, motivation, the expected contribution to ICPMF activities, and other significant aspects related to the ICPMF mission and vision."
   },
   {
     "objectID": "publications.html",

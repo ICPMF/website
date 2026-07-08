@@ -5,6 +5,17 @@ format: html
 
 ## Ongoing
 
+### ICPMF14 will be held from June 23–25, 2027, in Shanghai, China
+
+|                                                        |
+|--------------------------------------------------------|
+| ![](images/conferences/icpmf14.png){fig-align="center" width="600px"} |
+
+**The 14^th^ International Conference on Predictive Modelling in Food (ICPMF 14)** will be held jointly with the Conference on Food Microbiological Risk Assessment (MicroRisk 2027), **from 23^rd^ to 25^th^ June 2027**, **in Shanghai, China**. <br>
+For more information, please see the [Events page](events.html). The official website is also available at [http://microrisk.cn/](http://microrisk.cn/).
+
+## Past
+
 ### Call for applications for two positions of ICPMF board member
 
 ICPMF seeks exceptional candidates with a strong track record in the field of Predictive Microbiology and Food Modelling, to serve as ICPMF board member, developing activities related to the ICPMF mission and participating in the ICPMF board meetings in accordance with the by-laws:
