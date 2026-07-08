@@ -10,7 +10,21 @@ listing:
       member_type: "current"
     grid-columns: 2
     grid-item-align: center
-    image-height: 250px 
+    image-height: 250px
+    field-display-names:
+      role: ""
+      affiliation: ""
+    fields: [image, title, role, affiliation]
+
+  - id: icfmh-representatives
+    contents: data/members.yml
+    type: grid
+    sort: order
+    include:
+      member_type: "icfmh-representative"
+    grid-columns: 2
+    grid-item-align: center
+    image-height: 250px
     field-display-names:
       role: ""
       affiliation: ""
@@ -24,7 +38,7 @@ listing:
       member_type: "former"
     grid-columns: 2
     grid-item-align: center
-    image-height: 250px 
+    image-height: 250px
     field-display-names:
       role: ""
       affiliation: ""
@@ -36,6 +50,17 @@ listing:
 The ICPMF board is formed by ten members, from different organisations all over the world, being active in the field of Predictive Modelling in Food and demonstrating a relevant contribution and engagement in the sustainable development of this area in the different scopes of application: Academia, Industry and Government. The ICPMF board has the remit of maintaining the organisation of the biennial ICPMF conference and promoting workshops, symposia and other activities aimed to transfer the generated know-how and scientific and technological advances to the food modeller community, the food sector and society in general.
 
 ::: {#current-members}
+
+:::
+
+<!-- NOTE   : Added representative section -->
+<!-- REVIEW : Changed into Representative to ICFMH -->
+## Representative to ICFMH
+
+In 2014, the Executive board agreed to incorporate the International Committee on Predictive Modelling in Food (ICPMF) as a ICFMH subcommittee. The ICPMF has as mission to catalyse the development of predictive modelling in foods, primarily through advancing the success and sustainability of the biennial ICPMF-conferences. The ICPMF representative to the ICFMH Exective Board from November 2023 is Dr. Mariem Ellouze.
+
+<!-- REVIEW : Changed from representatives into icfmh-representatives -->
+::: {#icfmh-representatives}
 
 :::
 

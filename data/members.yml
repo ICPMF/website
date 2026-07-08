@@ -22,21 +22,13 @@
   member_type: current
   order: 3
 
-- id: mariem-ellouze
-  title: Mariem Ellouze
-  role: Representative to ICFMH
-  affiliation: Ferrero, Italy
-  image: images/board/members/Mariem_Ellouse.png
-  member_type: current
-  order: 4
-  
 - id: heidy-den-desten
   title: Heidy Den Besten
   role: Board Member
   affiliation: Wageningen University, The Netherlands
   image: images/board/members/Heidy_Den_Besten.jpg
   member_type: current
-  order: 5
+  order: 4
   
 - id: fernando-rodriguez
   title: "Fernando Pérez-Rodríguez"
@@ -44,15 +36,7 @@
   affiliation: University of Cordoba, Spain
   image: images/board/members/Fernando_Rodriguez.png
   member_type: current
-  order: 6
-
-- id: anderson-santana
-  title: "Anderson Sant'Ana"
-  role: Board Member
-  affiliation: University of Campinas, Brazil
-  image: images/board/members/Anderson_Santana.png
-  member_type: current
-  order: 7
+  order: 5
 
 - id: martin-nauta
   title: Maarten Nauta
@@ -60,7 +44,7 @@
   affiliation: Statens Serum Institut, Denmark
   image: images/board/members/Martin_Nauta.png
   member_type: current
-  order: 8
+  order: 6
 
 - id: regis-pouillot
   title: Regis Pouillot
@@ -68,7 +52,7 @@
   affiliation: Independent Consultant, France
   image: images/board/members/Regis_Pouillot.jpg
   member_type: current
-  order: 9
+  order: 7
 
 - id: qingli-dong
   title: Qingli Dong
@@ -76,7 +60,35 @@
   affiliation: University of Shanghai for Science and Technology, China
   image: images/board/members/Qingli_Dong.png
   member_type: current
+  order: 8
+
+# NOTE : Add Louis Coroller and affiliation
+- id: louis-coroller
+  title: Louis Coroller
+  role: Board Member
+  affiliation: "National Institute Polytechnic of Brittany, France"
+  image: images/board/members/Louis_Coroller.jpg
+  member_type: current
+  order: 9
+
+# NOTE : Add Panos Skandamis and affiliation
+- id: panagiotis-skandamis
+  title: Panagiotis N. Skandamis
+  role: Board Member
+  affiliation: "Agricultural University of Athens, Greece"
+  image: images/board/members/Panagiotis_Skandamis.jpg
+  member_type: current
   order: 10
+
+# REVIEW : Added representative role here
+# REVIEW : Changed member_type from 'representative' to 'icfmh-representative'
+- id: mariem-ellouze
+  title: Mariem Ellouze
+  role: Representative to ICFMH
+  affiliation: Ferrero, Italy
+  image: images/board/representatives/Mariem_Ellouse.png
+  member_type: icfmh-representative
+  order: 1
 
 - id: josef-baranyi
   title: "József Baranyi"
@@ -141,3 +153,11 @@
   image: images/board/former/Augustin.png
   member_type: former
   order: 8
+
+- id: anderson-santana
+  title: "Anderson Sant'Ana"
+  role: Former Member
+  affiliation: University of Campinas, Brazil
+  image: images/board/former/Anderson_Santana.png
+  member_type: former
+  order: 9
